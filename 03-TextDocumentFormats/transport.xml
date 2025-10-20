@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+    <transport type="Bus" access="Public">
+        <model>VOLVO 7900 HYBRID</model>
+        <provider>Solaris</provider>
+        <fueltype>electric</fueltype>
+        <purpose>daily commuting</purpose>
+    </transport>
+
+    <transport type="Tram" access="Public">
+        <model>Stadler Tango "Lajkonik"</model>
+        <provider>Stadler</provider>
+        <line>52, 8, 10</line>
+        <purpose>daily commuting</purpose>
+    </transport>
+
+    <transport type="Car" access="Private">
+        <brand>Fiat</brand>
+        <model>Panda</model>
+        <fueltype>LPG</fueltype>
+        <purpose>personal uses</purpose>
+    </transport>
+</transports>

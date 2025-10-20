@@ -1,0 +1,11 @@
+{
+"departureFrom": "Krakow Gl.",
+"departureTo": "Bochnia",
+"departureTime": "12:00 am",
+"arrivalTime": "6:00 pm",
+"class": 2,
+"serieNumber": 897471923,
+"distanceinkm": 38,
+"reducedPrice": false,
+"price": 4.64
+}
