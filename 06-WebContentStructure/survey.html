@@ -7,16 +7,26 @@
 </head>
 <body>
     <h1>Survey</h1>
-    <form> 
-        <label for="age">Age:</label><br>
-        <input type="number" id="age" name="age"><br><br>
-
-        <label>Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br><br>
-
+  <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required> 
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender_0" name="gender" value="option1" required>
+        <label for="gender_0">Female</label>
+        <input type="radio" id="gender_1" name="gender" value="option2" required>
+        <label for="gender_1">Male</label>
+        <br>
+        <br>
+        <label for="how_often_do_you_use_chatgpt">How often do you use ChatGPT?</label>
+            <select id="how_often_do_you_use_chatgpt" name="how_often_do_you_use_chatgpt" required>
+                <option value="option1">Never</option>
+                <option value="option2">Rarely</option>
+                <option value="option3">Occasionally</option>
+                <option value="option4">Often</option>
+                <option value="option5">Constantly</option>
+            </select>
     </form>
 </body>
 </html>
